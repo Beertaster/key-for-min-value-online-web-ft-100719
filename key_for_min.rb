@@ -11,10 +11,9 @@ def key_for_min_value(name_hash)
     end
     min_val = arr[0]
     i = 0
-    while i < arr.leagth 
-      if min_val < arr[i]
-        min_val = arr[i]
-      end
+    array.each do |value|
+      min_num = value if value < min_num
+    end
       
   end
 end
